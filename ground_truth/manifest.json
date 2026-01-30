@@ -1,0 +1,12 @@
+{
+  "figma_file_key": "dmiEyrs6i2gpImH8X2vfij",
+  "total_frames": 1,
+  "frames": [
+    {
+      "name": "Shopping App",
+      "node_id": "2:221",
+      "gt_image": "2-221.png",
+      "target_route": "/"
+    }
+  ]
+}

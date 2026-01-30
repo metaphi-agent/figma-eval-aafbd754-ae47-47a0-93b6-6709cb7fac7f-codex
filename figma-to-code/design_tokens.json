@@ -1,0 +1,19 @@
+{
+  "fonts": {
+    "primary": "Poppins",
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "black": 900
+    }
+  },
+  "colors": {
+    "bg": "#FBECA3",
+    "surface": "#FFFFFF",
+    "hero": "#F4F6F5",
+    "accent": "#E6C744",
+    "ink": "#000000",
+    "muted": "#C2C8DA"
+  }
+}
+

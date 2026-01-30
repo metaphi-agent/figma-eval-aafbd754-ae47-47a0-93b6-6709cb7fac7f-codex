@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Design tokens will be extracted from Figma */
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji",
+    "Segoe UI Emoji";
+
+  --color-bg: #fbeca3;
+  --color-surface: #ffffff;
+  --color-hero: #f4f6f5;
+  --color-accent: #e6c744;
+  --color-ink: #000000;
+  --color-muted: #c2c8da;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.bg-arc-lines {
+  background:
+    radial-gradient(circle at 90% 10%, transparent 0 62%, rgba(230, 199, 68, 0.9) 62% 62.3%, transparent 62.3% 68%, rgba(230, 199, 68, 0.9) 68% 68.3%, transparent 68.3% 74%, rgba(230, 199, 68, 0.9) 74% 74.3%, transparent 74.3% 80%, rgba(230, 199, 68, 0.9) 80% 80.3%, transparent 80.3% 100%),
+    radial-gradient(circle at 15% 95%, transparent 0 58%, rgba(230, 199, 68, 0.9) 58% 58.3%, transparent 58.3% 64%, rgba(230, 199, 68, 0.9) 64% 64.3%, transparent 64.3% 70%, rgba(230, 199, 68, 0.9) 70% 70.3%, transparent 70.3% 100%);
+}
